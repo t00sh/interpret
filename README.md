@@ -66,10 +66,10 @@ R --> [-+]{0,1}[0-9.]+
 * a ^ b -> a power b
 
 ##### Operators priority
-=, >, >, <, ~          ===> 1
-+,-                    ===> 2
-*,/,%                  ===> 3
-^                      ===> 4
+* =, >, >, <, ~          ===> 1
+* +,-                    ===> 2
+* *,/,%                  ===> 3
+* ^                      ===> 4
 
 You can use the () for change the priority.
 
