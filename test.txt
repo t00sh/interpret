@@ -1,0 +1,19 @@
+# Programme de test
+# Affichage des nombres premiers de 1 à 1000
+
+I = 1
+
+while(I < 1000)
+	DIVISEUR = 0
+	J = 1
+	while(J < sqrt(I))
+		if(I%J ~ 0)
+		       DIVISEUR = DIVISEUR + 1
+		end
+		J = J + 1
+	end
+	if(DIVISEUR < 2)
+		    print(I)
+	end
+	I = I + 2
+end
